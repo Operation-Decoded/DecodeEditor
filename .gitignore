@@ -1,0 +1,14 @@
+# Maven work folder
+/target/
+
+# Eclipse Workspace
+/.settings/
+.classpath
+.project
+/Cs_Models_Rigged/
+
+# IntelliJ Workspace
+.idea/*
+
+# Maven
+*.iml
