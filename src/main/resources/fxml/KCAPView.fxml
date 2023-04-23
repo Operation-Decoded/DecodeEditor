@@ -2,14 +2,15 @@
 
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.TreeView?>
-<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.BorderPane?>
 
-<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
-  <content>
-      <FlowPane>
-         <children>
-            <TreeView fx:id="kcapTree" />
-         </children>
-      </FlowPane>
-  </content>
+
+<ScrollPane fitToHeight="true" fitToWidth="true" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <BorderPane>
+         <left>
+            <TreeView fx:id="kcapTree" BorderPane.alignment="CENTER" />
+         </left>
+      </BorderPane>
+   </content>
 </ScrollPane>
